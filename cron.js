@@ -6,9 +6,6 @@ var request = require('request'),
 	usersRef = new Firebase('https://sportsbettr2.firebaseio.com/users'),
 	calendarRef = new Firebase('https://sportsbettr2.firebaseio.com/calendar'),
 	leaguesRef = new Firebase('https://sportsbettr2.firebaseio.com/leagues'),
-	fixtures = 'http://football-api.com/api/?Action=fixtures&APIKey=5e83f197-5583-841b-390fc408b747&&from_date=26.12.2014&&to_date=31.12.2014',
-	leagues = 'http://football-api.com/api/?Action=competitions&APIKey=5e83f197-5583-841b-390fc408b747',
-	url = 'http://football-api.com/api/?Action=today&APIKey=5e83f197-5583-841b-390fc408b747';
 
 
 //При каждом обновлении данных в фаербазе делаем что написано ниже
